@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  display: flex;
+}
+
+.leftside img {
+  width: 40vw;
+  min-height: 100vh;
+}
+
+.rightside {
+  min-width: 60vw;
+}
+
+.form_section {
+  display: flex;
+  gap: 5vw;
+}
+
+
+.form_section div {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  background-color: #BD93F9;
+}
