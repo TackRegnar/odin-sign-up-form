@@ -17,12 +17,23 @@ body {
   gap: 5vw;
 }
 
-
 .form_section div {
   display: flex;
   flex-direction: column;
 }
 
-form {
+.form_bg {
   background-color: #BD93F9;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#summit_button {
+  background-color: olive;
+}
+
+#login_link {
+  color: olive;
 }
