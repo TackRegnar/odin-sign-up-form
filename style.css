@@ -1,20 +1,41 @@
+:root {
+  --left_width: 30vw;
+  --right_width: 70vw;
+}
+
 body {
   margin: 0px;
   display: flex;
 }
 
+.credit {
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+  justify-content: center;
+  width: var(--left_width);
+}
+
 .logo {
   display: flex;
-  position: fixed;
+  position: absolute;
   background-color: rgba(0,0,0,0.5);
   justify-content: center;
   align-items: center;
-  min-width: 30vw;
   top: 12vh;
+  width: var(--left_width);
+  gap: 5px;
+}
+
+@font-face {
+  font-family: Norse-Bold;
+  src: url(./fonts/Norse-Bold.otf);
 }
 
 .logo p {
-display: flex;
+  display: flex;
+  font-family: Norse-Bold;
+  font-size: 4em;
 }
 
 .logo img {
@@ -26,12 +47,12 @@ display: flex;
 }
 
 #leftside_bg_img {
-  width: 30vw;
-  min-height: 100vh;
+  width: var(--left_width);
+  height: 100vh;
 }
 
 .rightside {
-  min-width: 70vw;
+  width: var(--right_width);
   background-color: #282A36;
   color: #e8e6e3;
 }
