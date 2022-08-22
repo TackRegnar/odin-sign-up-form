@@ -57,6 +57,11 @@ body {
   color: #e8e6e3;
 }
 
+.rightside p {
+  padding-left: 2vw;
+  max-width: 50vw;
+}
+
 .form_section {
   display: flex;
   gap: 5vw;
@@ -69,22 +74,42 @@ body {
 
 .form_bg {
   background-color: #596D48;
+  padding-left: 2vw;
 }
 
 input {
   margin-bottom: 10px;
   border-radius: 5px;
   border-color: #E5E7EB;
-}
-
-#summit_button {
-  background-color: #596D48;
-}
-
-#login_link {
-  color: #596D48;
+  width: 20vw;
 }
 
 input:focus {
   border-color: blue;
+}
+
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+#summit_button {
+  background-color: #596D48;
+  border-color: #596D48;
+  color: #e8e6e3;
+  margin: 2vw;
+  border-radius: 10px;
+  width: 220px;
+  height: 50px;
+}
+
+#summit_button:hover {
+  border-color: blue;
+}
+
+#login_link {
+  color: #596D48;
 }
